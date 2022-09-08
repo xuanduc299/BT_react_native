@@ -5,11 +5,11 @@ import './css/style.css';
 export default function App() {
   return (
     <View style={styles.container}>
-      <div className='style_quare'>
+      <View className='style_quare'>
         <Square color='#333' />
         <Square color='#ddd' />
         <Square color='#CCC' />
-      </div>
+      </View>
     </View>
 
   );
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-
+    flexdecoration: 'row'
   },
 
 });
